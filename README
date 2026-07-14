@@ -1,0 +1,34 @@
+catalogue
+data/ contains processed differential-expression results and other data tables used in the downstream analyses.
+fig1/ contains the final output and related source material for Figure 1.
+fig2/ contains the final output and related source material for Figure 2.
+script/ contains the main R scripts used for statistical analysis and figure generation:
+01_gene_dotplot.R: marker-gene dot-plot analysis and visualization;
+02_cell_proportion_analysis.R: comparison of immune-cell proportions between study groups;
+03_cell_cell_interaction.R: cell–cell communication analysis and visualization;
+04_tcr_repertoire_analysis.R: T-cell receptor repertoire and clonotype analysis;
+05_bcr_repertoire_analysis.R: B-cell receptor repertoire and clonotype analysis;
+06_pseudotime_trajectory.R: pseudotime and branch-dependent transcriptional analysis;
+07_transcription_factor_analysis.R: transcription-factor regulon activity analysis and visualization.
+supporting information/ contains the source document for the supplementary figures and their legends.
+table/ contains the supplementary tables associated with the manuscript.
+
+Usage
+Clone or download this repository:
+git clone https://github.com/guoy8269-lgtm/ScRNA-Seq-Profiling-Acute-Phase-Immune-in-Human-Scrub-Typhus.git
+Open the required R script in R or RStudio.
+Install the R packages specified in each script.
+Modify local input and output paths where necessary.
+Run the scripts according to the analysis of interest.
+The scripts were developed for the analyses reported in the manuscript. Users may need to adjust file paths, object names, factor levels, and package versions before applying them in a different computing environment.
+
+Data availability
+This repository contains processed data tables, analysis scripts, and figure-related files. Raw sequencing data and potentially identifiable clinical information are not included.
+The accession number and repository information for the raw sequencing data will be provided in the manuscript or added here after public release.
+
+Citation
+If you use the data, scripts, or analytical workflow provided in this repository, please cite the corresponding paper:
+Guo Y, et al. Single-cell profiling of acute-phase immune responses in human scrub typhus. iMeta. 2026.
+Before formal publication, please cite this GitHub repository:
+Guo Y. ScRNA-Seq Profiling of Acute-Phase Immune Responses in Human Scrub Typhus. GitHub repository.
+https://github.com/guoy8269-lgtm/ScRNA-Seq-Profiling-Acute-Phase-Immune-in-Human-Scrub-Typhus
